@@ -5,12 +5,12 @@ on:
       - opened
   workflow_dispatch:
   push:
-     branches: 
-       - main
-       - "dev-*" => ex. dev-hoshino or dev-liam-sucks
-       - "feat/**" => ex. feat/simply/jackass
-     paths-ignore:
-       - ".github/worflows/*"
+    branches: 
+      - main
+      - "dev-*" => ex. dev-hoshino or dev-liam-sucks
+      - "feat/**" => ex. feat/simply/jackass
+    paths-ignore:
+      - ".github/worflows/*"
 jobs:
   deploy:
     runs-on: ubuntu-latest
