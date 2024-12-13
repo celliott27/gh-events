@@ -7,8 +7,8 @@ on:
   push:
     branches: 
       - main
-      - "dev-*" => ex. dev-hoshino or dev-liam-sucks
-      - "feat/**" => ex. feat/simply/jackass
+      - "dev-*" 
+      - "feat/**" 
     paths-ignore:
       - ".github/worflows/*"
 jobs:
