@@ -25,7 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       script-file: ${{ steps.publish.outputs.script-file }}
-
     steps:
       - name: Get code
         uses: actions/checkout@v3
